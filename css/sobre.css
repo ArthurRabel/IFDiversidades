@@ -70,7 +70,11 @@
         width: 40%;
     }
 }
-@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+    .Section__Img--horizontal{
+        max-width: 450px;
+    }
+}
 @media (min-width:1281px) { /* hi-res laptops and desktops */ 
     .Section__Wrapper1{
         margin: 50px  auto -200px;
@@ -80,5 +84,8 @@
     }
     .Section__Wrapper4{
         margin-bottom: 150px;
+    }
+    .Section__Img--horizontal{
+        max-width: 600px;
     }
 }
